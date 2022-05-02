@@ -37,8 +37,6 @@ class FER_Dataset(Dataset):
 		return image, label
 
 
-# data path
-data_path = './fer2013/train/'
 
 def make_dataloader(shuffle_dataset=True, validation_split=.3, batch_size=32, transform):
 	# make dataset list
